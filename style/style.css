@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+
+
+.header{
+    padding: 50px 0;
+    border-radius: 0 0 8px 8px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,1) 52%, rgba(255,141,0,1) 100%);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.search{
+    position: relative;
+    display: flex;
+    width: 200px;
+
+}
+
+.searchTerm{
+    width: 100%;
+    border: 1px solid #000;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.search button{
+    width: 40px;
+    height: 36px;
+    border: 1px solid #000;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+.main-title{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    background-image: linear-gradient(to bottom, #f8f8f8, #fafafa, #fbfcfb, #fdfdfd, #ffffff);    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 21px 16px 4px rgba(79, 135, 178, 0.14);
+}
+
+.card-img{
+    max-width: 500px;
+    width: 100%;
+}
