@@ -116,3 +116,27 @@ a{
     max-width: 500px;
     width: 100%;
 }
+
+#currentCocktail {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 3 / 3; }
+.div2 { grid-area: 1 / 3 / 3 / 5; }
+.div3 { grid-area: 3 / 1 / 5 / 3; }
+.div4 { grid-area: 3 / 3 / 5 / 5; }
+
+.grid img {
+    max-width: 100px;
+    width: 100%;
+}

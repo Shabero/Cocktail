@@ -10,25 +10,32 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <a href="#">HOME</a>
-                <div class="search">
-                    <input type="text" class="searchTerm" placeholder="What kind of cocktail are you looking for?">
-                    <button type="submit" class="searchButton">
-                        <span class="material-symbols-outlined">search</span>
-                    </button>
-                </div>
+                <a href="#" id="home">HOME</a>
+
             </nav>
         </div>
     </header>
     <main>
         <div class="container">
             <h1 class="main-title">Cocktails</h1>
-            <div class="row">
-
+            <div id="search" class="hidden">
+                <input type="text" class="searchTerm" id="searchInput" placeholder="What kind of cocktail are you looking for?">
+                <button type="submit" class="searchButton" id="searchSubmit">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
             </div>
-
+            <div class="row"></div>
+            <div id="currentCocktail"></div>
         </div>
     </main>
+    <footer>
+        <div class="container">
+            <div class="about-footer">
+                <a href="#!" class="social-link">instagram</a>
+                <a href="#!" class="social-link">telegram</a>
+            </div>
+        </div>
+    </footer>
 <script src="./script.js"></script>
 </body>
 </html>
