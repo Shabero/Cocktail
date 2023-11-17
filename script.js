@@ -93,10 +93,10 @@ searchSubmit.addEventListener('click', () => {
     getSearchCocktail()
 })
 
-// searchButton.addEventListener('click', () => {
-//     row.classList.add('hidden')
-//     search.classList.remove('hidden')
-// })
+searchButton.addEventListener('click', () => {
+    row.classList.add('hidden')
+    search.classList.remove('hidden')
+})
 
 home.addEventListener('click', () => {
     row.classList.remove('hidden')
